@@ -4,9 +4,9 @@ except ImportError:
     from distutils.core import setup
 
 
-with open('README.md') as f:
+with open('README.md',encoding="utf8") as f:
     readme = f.read()
-with open('LICENSE') as f:
+with open('LICENSE',encoding="utf8") as f:
     license = f.read()
 
 
